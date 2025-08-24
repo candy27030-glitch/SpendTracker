@@ -1,0 +1,5 @@
+[deploy]
+startCommand = "java -jar target/smartspender-0.0.1-SNAPSHOT.jar"
+
+[env]
+MONGODB_URI = "mongodb+srv://<username>:<password>@cluster1.mongodb.net/smartspender?retryWrites=true&w=majority"
